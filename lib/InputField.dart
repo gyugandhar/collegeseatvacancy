@@ -8,34 +8,29 @@ class InputField extends StatelessWidget {
         Container(
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
-            border: Border(
-              bottom: BorderSide(color: Colors.grey[200])
-            )
-          ),
+              border: Border(bottom: BorderSide(color: Colors.grey.shade200))),
           child: TextField(
             decoration: InputDecoration(
-              hintText: "Enter your email",
-              hintStyle: TextStyle(color: Colors.grey),
-              border: InputBorder.none
-            ),
+                hintText: "Enter your email",
+                hintStyle: TextStyle(color: Colors.grey),
+                border: InputBorder.none),
           ),
         ),
         Container(
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
               border: Border(
-                  bottom: BorderSide(colors: Colors.grey[200])
-              )
-          ),
+            bottom: BorderSide(color: Colors.grey.shade200),
+          )),
           child: TextField(
             decoration: InputDecoration(
-                hintText: "Enter your password",
-                hintStyle: TextStyle(color: Colors.grey),
-                border: InputBorder.none
+              hintText: "Enter your password",
+              hintStyle: TextStyle(color: Colors.grey),
+              border: InputBorder.none,
             ),
           ),
         ),
       ],
-    )
+    );
   }
 }
