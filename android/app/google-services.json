@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653145544687",
+    "project_id": "college-seat-vacancy",
+    "storage_bucket": "college-seat-vacancy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653145544687:android:05b9a1e361f4fa9f5cc81a",
+        "android_client_info": {
+          "package_name": "com.example.collegeseatvacancy.college_seat_vacancy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653145544687-m1pmu1uci8jhcv6ubs5h3cd7k5kt52nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjtVFI8C9Y0xIxXkhrkIBIH6uiOROhSeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653145544687-m1pmu1uci8jhcv6ubs5h3cd7k5kt52nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
